@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.shrikanthravi.alwaysondisplay.Clock1">
+    <com.shrikanthravi.alwaysondisplay.EdgeLight
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        app:emax="100"
+        app:eprogress="25"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        app:eprogressbarColor="@android:color/white"
+        app:eprogressBarThickness="7dp"
+        android:id="@+id/edgeLight"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+    </RelativeLayout>
+</RelativeLayout>

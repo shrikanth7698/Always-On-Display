@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressBar">
+        <attr name="min" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="progress" format="integer" />
+        <attr name="progressbarColor" format="color" />
+        <attr name="progressBarThickness" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="EdgeLight">
+        <attr name="emin" format="integer" />
+        <attr name="emax" format="integer" />
+        <attr name="eprogress" format="integer" />
+        <attr name="eprogressbarColor" format="color" />
+        <attr name="eprogressBarThickness" format="dimension" />
+    </declare-styleable>
+
+</resources>

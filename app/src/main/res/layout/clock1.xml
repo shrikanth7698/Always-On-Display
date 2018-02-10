@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.shrikanthravi.alwaysondisplay.CircleProgressBar
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_centerVertical="true"
+        app:progress="45"
+        app:max="60"
+        app:progressbarColor="@color/lightRed"
+        app:progressBarThickness="15dp"
+        android:layout_centerHorizontal="true"/>
+    <com.shrikanthravi.alwaysondisplay.CircleProgressBar
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        app:progressBarThickness="15dp"
+        app:progressbarColor="@color/limeGreen"
+        android:layout_centerVertical="true"
+        app:progress="41"
+        app:max="60"
+        android:layout_centerHorizontal="true"/>
+    <com.shrikanthravi.alwaysondisplay.CircleProgressBar
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        app:progressBarThickness="15dp"
+        app:progress="5"
+        app:max="12"
+        android:layout_centerVertical="true"
+        app:progressbarColor="@color/limeBlue"
+
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
