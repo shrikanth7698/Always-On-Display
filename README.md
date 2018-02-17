@@ -1,6 +1,6 @@
 # Always-On-Display
 Always On Display app for Amoled Phones
-
+https://shrikanth7698.github.io/Always-On-Display/
 <table>
   <tr>
   <td>
